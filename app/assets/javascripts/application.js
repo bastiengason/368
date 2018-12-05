@@ -14,3 +14,17 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if (scroll > 300) {
+      $(".navigation").css("background-color" , "#1C1C1C");
+    }
+
+    else{
+      $(".navigation").css("background-color" , "transparent");
+    }
+  })
+})
