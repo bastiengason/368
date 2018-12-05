@@ -21,3 +21,62 @@
   font-family: "Avenir";
   text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
+
+.banner-creator {
+  min-height: 30vh;
+  background-color: $brand-black;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Avenir";
+
+  h2 {
+    font-size: 50px;
+  }
+
+  a {
+    color: $brand-red;
+  }
+}
+
+.banner-about {
+  min-height: 45vh;
+  background-color: $brand-black;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-contact {
+  min-height: 45vh;
+  background-color: $brand-black;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Avenir";
+
+  h2 {
+    font-size: 50px;
+  }
+
+  a {
+    color: $brand-red;
+  }
+}

@@ -19,7 +19,7 @@
 $(document).ready(function(){
   $(window).scroll(function(){
     var scroll = $(window).scrollTop();
-    if (scroll > 300) {
+    if (scroll > 200) {
       $(".navigation").css("background-color" , "#1C1C1C");
     }
 
