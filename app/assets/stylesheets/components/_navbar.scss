@@ -1,0 +1,23 @@
+.navigation {
+  padding-top: 30px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.logo-nav {
+  height: 25px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  &:hover {
+    color: $brand-red;
+    transition: color .2s ease;
+  }
+}

@@ -1,0 +1,25 @@
+// Config
+@import "config/utilities";
+@import "config/variables";
+
+// Components
+@import "components/buttons";
+@import "components/navbar";
+@import "components/cards";
+@import "components/footer";
+
+// Sections
+@import "sections/banners";
+// @import "sections/discover";
+@import "sections/about";
+
+// Pages
+@import "pages/about";
+@import "pages/blog";
+@import "pages/contact";
+@import "pages/creator";
+@import "pages/hire";
+
+body {
+  margin: 0;
+}

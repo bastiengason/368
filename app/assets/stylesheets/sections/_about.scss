@@ -1,0 +1,29 @@
+#about-home {
+  height: 40vh;
+}
+
+.about-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 35px;
+  font-weight: 600;
+  color: $brand-black;
+  font-family: "Avenir";
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.about-desc {
+  width: 700px;
+  font-size: 18px;
+  color: $brand-black;
+  font-family: "Avenir";
+  margin-bottom: 30px;
+  text-align: center;
+}
